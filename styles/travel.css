@@ -1,0 +1,186 @@
+*{
+    
+    margin: 0 auto;
+    border-radius: 16px;
+    
+
+nav{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+
+} 
+
+nav>h3{
+    text-align: left;
+    font-size: 2em;
+}
+.icon{
+    display: flex;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+nav>ul{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    
+    word-spacing: 20px;
+
+} 
+
+
+nav li{
+    list-style: none;
+    margin-right: 0;
+    font-size: 1rem;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: #131318;
+}
+    
+.container{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+    width: 1170px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.size input{
+    width: 150px;
+    height: 40px;
+    margin-top: 100px;
+    margin-right: 20px;
+    
+    
+    
+}
+
+.size select{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+}
+.search-input{
+    padding-left: 10px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+    .icon{
+        flex-direction: column;
+    }
+}
+/* main */
+.head{
+    text-align: left;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 60px;
+
+}
+.container p{
+    width: 670px;
+    height: 50px;
+    color:white;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+}
+.flex{
+   display: flex;
+   width: 1170px;
+   height: 600px;
+   text-align: left;
+   
+   gap: 50px;
+   margin-bottom: 50px;
+   text-align: left;
+
+   
+}
+.size h3{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+    margin-bottom: 40px;
+    
+
+}
+.size p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   margin: 60px;
+   margin-right: 20px;
+   text-align: left;
+    
+    
+}
+.size ul{
+    color: rgba(19, 19, 24, 0.70);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+justify-content: left;
+text-align: left;
+margin-left: 20px;
+line-height: normal;
+}
+.size{
+    width: 570px;  
+}
+.pic{
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+    margin-top: 10px;
+
+}
+
+div button{
+    background-color: orangered;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    
+}
